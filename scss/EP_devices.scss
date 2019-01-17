@@ -1,0 +1,18 @@
+.devices{
+    overflow: hidden;
+    padding-top: 10%;
+    height: 600px;
+    background-color: white;
+    .txt_box{
+        color: #f99d25;
+        .line{
+            background-color: #f99d25;
+        }
+    }
+    img{
+        height: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

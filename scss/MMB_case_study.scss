@@ -1,0 +1,59 @@
+@import 'zmienne';
+
+header {
+    opacity: 0;
+    background-color: $MMB_orange;
+    height: 900px;
+    overflow: hidden;
+    min-height: $lg-min-height;
+    transition: opacity 0.5s linear;
+
+    .case_study {
+        padding: $lg-padding;
+
+        .heading {
+            padding-bottom: 20px;
+
+            h1,
+            h5 {
+                overflow: hidden;
+                color: $MMB_gray;
+            }
+
+            h5 {
+                margin: 0 16px;
+            }
+
+            h1 {
+                margin: 32px;
+
+                @media all and (min-width: 768px) {
+                    font-size: 4.5rem;
+                }
+            }
+
+            .line {
+                margin-left: 48px;
+                width: 20%;
+                height: 2px;
+                display: flex;
+                align-self: center;
+                min-width: 40px;
+
+            }
+        }
+
+        .description {
+            h5 {
+                padding-bottom: 16px;
+            }
+
+            color: white;
+
+            hr {
+                background-color: white;
+            }
+
+        }
+    }
+}

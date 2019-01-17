@@ -1,0 +1,69 @@
+.color_box {
+  height: 100vh;
+  min-height: 800px; }
+  .color_box .row {
+    margin: 0;
+    padding: 0;
+    height: 25%;
+    width: 100%; }
+    .color_box .row .field {
+      color: white;
+      text-align: end;
+      padding: 5% 4% 0 4%;
+      display: inline-block;
+      height: 100%;
+      width: 20%; }
+      .color_box .row .field p {
+        font-size: 0.9rem;
+        text-transform: uppercase; }
+    .color_box .row #heading {
+      padding: 1% 4% 0 3%;
+      text-align: left;
+      color: #383838; }
+      .color_box .row #heading .line {
+        background-color: #555656;
+        height: 2px;
+        width: 50%; }
+  .color_box .clean_water {
+    background-color: #00add8; }
+  .color_box .clean_energy {
+    background-color: #fdb714; }
+  .color_box .industry {
+    background-color: #f36e24; }
+  .color_box .frame {
+    background-color: #fff;
+    border: solid 0.5px #9fa0a0; }
+    .color_box .frame p {
+      color: #9fa0a0; }
+  .color_box .land_life {
+    background-color: #40ae49; }
+  .color_box .below_water {
+    background-color: #007dbb; }
+  .color_box .industry {
+    background-color: #f36e24; }
+  .color_box .powerty {
+    background-color: #EA1C2D; }
+  .color_box .cities {
+    background-color: #f99d25; }
+  .color_box .letter {
+    background-color: #555656; }
+  .color_box .health {
+    background-color: #2d9a47; }
+  .color_box .peace {
+    background-color: #00558a; }
+  .color_box .hunger {
+    background-color: #D19F2A; }
+  .color_box .education {
+    background-color: #C22033; }
+  .color_box .gustaw {
+    background-color: #383838; }
+  .color_box .climate {
+    background-color: #48773c; }
+  .color_box .partnership {
+    background-color: #1A3668; }
+  .color_box .consumption {
+    background-color: #CD8B2A; }
+  .color_box .happy_gustaw {
+    background-color: #E01A83; }
+  .color_box .gustaw_bcg {
+    background-color: #000; }

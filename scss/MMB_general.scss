@@ -1,0 +1,99 @@
+@import 'zmienne';
+
+body {
+    background-color: #1a1d20;
+}
+
+.welcome_screen {
+    background-image: url(../assets/make_my_burger_img/burger_cover.png);
+    background-size: contain;
+    min-height: 800px;
+    background-position: center;
+    background-color: #1a1d20;
+    margin: 0;
+    padding: 0;
+    height: auto;
+
+    @media all and (min-width: 768px) {
+        background-image: url(../assets/make_my_burger_img/start-02.png);
+        min-height: 100vh;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .mask {
+        background-color: $MMB_orange;
+    }
+}
+
+.menu-section .hamburger:before {
+    background-color: #b44103;
+}
+
+.menu-section a:hover {
+    color: $MMB_gray;
+    text-decoration: none;
+}
+
+.menu-section button,
+.menu-section .hamburger .menu-label {
+    color: #fafafa;
+    font-weight: bold;
+}
+
+.img-box {
+    width: 100%;
+}
+
+.screen {
+    height: auto;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+
+    @media all and (min-width: 750px) {
+        width: 49%;
+
+    }
+}
+
+.color {
+    height: auto;
+    display: flex;
+    align-content: center;
+
+    .color_box {
+        align-self: center;
+        height: 120px;
+        width: 180px;
+        padding: 20px;
+
+        @media all and (min-width: 768px) {
+            height: 200px;
+            width: 120px;
+        }
+    }
+
+    .white {
+        background-color: white;
+    }
+
+    .dark_gray {
+        color: white;
+        border: solid 1px white;
+    }
+
+    .accent {
+        background-color: $MMB_orange;
+        color: white;
+    }
+
+}
+
+footer {
+    background-color: #fafafa;
+    width: 100%;
+}
+
+@import 'MMB_case_study';

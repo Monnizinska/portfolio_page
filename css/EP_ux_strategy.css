@@ -1,0 +1,52 @@
+.ux_strategy {
+  background-color: white; }
+  .ux_strategy .circle_bcg {
+    position: relative;
+    z-index: 100;
+    margin-top: 10%;
+    background-color: #f1f1f1;
+    border-radius: 100%;
+    height: 100vw;
+    width: 100vw;
+    overflow-x: visible; }
+    .ux_strategy .circle_bcg .txt_box {
+      padding-top: 10%;
+      width: 50%;
+      margin-left: 15%; }
+      .ux_strategy .circle_bcg .txt_box .line {
+        background-color: #fdb714; }
+      .ux_strategy .circle_bcg .txt_box h3 {
+        color: #fdb714; }
+      .ux_strategy .circle_bcg .txt_box .circle {
+        background-color: #fdb714;
+        color: white; }
+    .ux_strategy .circle_bcg img {
+      height: 50%; }
+  .ux_strategy .space {
+    position: relative;
+    margin-top: -50%;
+    height: 195vh;
+    background-color: #555656;
+    overflow: hidden; }
+    .ux_strategy .space .txt_box {
+      margin-top: 45%;
+      padding: 10% 5% 0 10%;
+      overflow: hidden; }
+      .ux_strategy .space .txt_box .row {
+        overflow: hidden; }
+      .ux_strategy .space .txt_box .line {
+        background-color: #fdb714; }
+      .ux_strategy .space .txt_box h3 {
+        overflow: hidden;
+        color: #fdb714; }
+      .ux_strategy .space .txt_box p {
+        overflow: hidden;
+        color: #000; }
+    .ux_strategy .space .img_box {
+      height: 100%; }
+      .ux_strategy .space .img_box img {
+        height: 25%;
+        max-height: 700px;
+        z-index: 600;
+        margin-top: 120%;
+        position: relative; }

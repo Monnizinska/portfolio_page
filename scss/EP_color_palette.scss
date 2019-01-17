@@ -1,0 +1,123 @@
+@import 'zmienne';
+
+.color_box {
+    height: 100vh;
+    min-height: $lg-min-height;
+
+    .row {
+        margin: 0;
+        padding: 0;
+        height: 25%;
+        width: 100%;
+
+        .field {
+            color: white;
+            text-align: end;
+            padding: 5% 4% 0 4%;
+            display: inline-block;
+            height: 100%;
+            width: 20%;
+
+            p {
+                font-size: 0.9rem;
+                text-transform: uppercase;
+            }
+        }
+        #heading{
+            padding: 1% 4% 0 3%;
+            text-align: left;
+            color: #383838;
+            .line{
+                background-color: #555656;
+                height: 2px;
+                width: 50%;
+            }
+        }
+    }
+
+    .clean_water {
+        background-color: #00add8;
+    }
+
+    .clean_energy {
+        background-color: #fdb714;
+    }
+
+    .industry {
+        background-color: #f36e24;
+    }
+
+    .frame {
+        background-color: #fff;
+        border: solid 0.5px #9fa0a0;
+
+        p {
+            color: #9fa0a0;
+        }
+    }
+
+    .land_life {
+        background-color: #40ae49;
+    }
+
+    .below_water {
+        background-color: #007dbb;
+    }
+
+    .industry {
+        background-color: #f36e24;
+    }
+
+    .powerty {
+        background-color: #EA1C2D;
+    }
+
+    .cities {
+        background-color: #f99d25;
+    }
+
+    .letter {
+        background-color: #555656;
+    }
+
+    .health {
+        background-color: #2d9a47;
+    }
+
+    .peace {
+        background-color: #00558a;
+    }
+
+    .hunger {
+        background-color: #D19F2A;
+    }
+
+    .education {
+        background-color: #C22033;
+    }
+
+    .gustaw {
+        background-color: #383838;
+    }
+
+    .climate {
+        background-color: #48773c;
+    }
+
+    .partnership {
+        background-color: #1A3668;
+    }
+
+    .consumption {
+        background-color: #CD8B2A;
+    }
+
+    .happy_gustaw {
+        background-color: #E01A83;
+    }
+
+    .gustaw_bcg {
+        background-color: #000;
+    }
+
+}

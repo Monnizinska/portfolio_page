@@ -1,0 +1,28 @@
+.gustaw {
+  height: 1200px;
+  position: relative; }
+  .gustaw .row {
+    height: 100%; }
+    .gustaw .row img {
+      width: 50%;
+      display: block;
+      margin-top: 500px;
+      margin-left: auto;
+      margin-right: auto; }
+    .gustaw .row .happy {
+      background-color: #e01a83; }
+    .gustaw .row .normal {
+      background-color: #383838; }
+    .gustaw .row .disappointed {
+      background-color: #000; }
+  .gustaw .description {
+    margin-left: 20%;
+    padding: 5% 5% 0 15%;
+    height: 25%;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    z-index: 300;
+    margin-top: -1100px; }
+    .gustaw .description .txt_box .line {
+      background-color: black; }

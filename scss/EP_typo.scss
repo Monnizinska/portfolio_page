@@ -1,0 +1,45 @@
+@import 'zmienne';
+
+.typo {
+    height: 120vh;
+    min-height: $lg-min-height;
+
+    h3 {
+        color: #00add8;
+    }
+
+    .line {
+        background-color: #00add8;
+    }
+
+    .row {
+        height: 100%;
+
+        .dark_blue {
+            padding: 10% 5% 0 10%;
+            height: 100%;
+            width: 100%;
+            background-color: #00558a
+        }
+
+        .light_blue {
+            img {
+                margin-top: 65%;
+            }
+        }
+
+        img {
+            width: 80%;
+            margin-top: 50%;
+        }
+
+        .light_blue {
+            height: 100%;
+            width: 100%;
+            padding: 10% 5% 0 10%;
+            ;
+            background-color: #00add8;
+        }
+
+    }
+}

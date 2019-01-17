@@ -1,0 +1,32 @@
+.ministers {
+    font-size: 0;
+    background-color: #00558a;
+    overflow-x: visible;
+    height: auto;
+
+    .first_row {
+        margin-top: -7%;
+        position: relative;
+        z-index: 200;
+    }
+
+    img {
+        display: inline-block;
+        width: 20%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .txt_box {
+        margin-top: 10%;
+        height: 300px;
+        color: white;
+        .line {
+            background-color: white;
+        }
+        p{
+            height: auto;
+            font-size: 1.2rem;
+        }
+    }
+}

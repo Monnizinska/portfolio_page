@@ -1,0 +1,20 @@
+.contrast {
+  background-color: #007dbb;
+  height: 160vh;
+  min-height: 800px;
+  overflow: hidden; }
+  .contrast .circle_bcg {
+    overflow-x: visible;
+    height: 100vw;
+    width: 100vw;
+    background-color: #1a3668;
+    border-radius: 100%;
+    margin-top: -50vw; }
+    .contrast .circle_bcg img {
+      width: 100%;
+      margin-top: 72vw; }
+  .contrast .txt_box {
+    padding: 10% 5% 0 10%;
+    color: #1a3668; }
+    .contrast .txt_box .line {
+      background-color: #1a3668; }

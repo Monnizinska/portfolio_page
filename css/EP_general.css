@@ -1,0 +1,401 @@
+body {
+  background-color: #f7f6f8; }
+
+.welcome_screen {
+  background-image: url(../assets/el_presidente_img/goals.png);
+  min-height: 100vh; }
+  @media screen and (min-width: 783px) {
+    .welcome_screen {
+      background-image: url(../assets/el_presidente_img/mockup_welcome.png); } }
+  .welcome_screen .mask {
+    background-color: #e01a83; }
+
+.menu-section .hamburger:before {
+  background-color: #bd176f; }
+
+.menu-section a:hover {
+  color: #661424;
+  text-decoration: none; }
+
+.menu-section button,
+.menu-section .hamburger .menu-label {
+  color: #661424;
+  font-weight: bold; }
+
+.circle {
+  display: flex;
+  position: sticky;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  text-align: center;
+  align-content: center; }
+  .circle h2 {
+    align-self: center;
+    font-size: 2.2rem; }
+
+p {
+  font-size: 1.2rem; }
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+header {
+  opacity: 0;
+  background-color: #e01a83;
+  height: 250vh;
+  overflow: hidden;
+  min-height: 800px;
+  transition: opacity 0.5s linear; }
+  header .case_study {
+    padding: 10% 5% 0 10%; }
+    header .case_study .heading {
+      padding-bottom: 20px; }
+      header .case_study .heading h1,
+      header .case_study .heading h5 {
+        overflow: hidden;
+        color: #661424; }
+      header .case_study .heading h5 {
+        margin: 0 16px; }
+      header .case_study .heading h1 {
+        margin: 32px;
+        font-size: 4.5rem; }
+      header .case_study .heading .line {
+        margin-left: 48px;
+        width: 20%;
+        height: 2px;
+        display: flex;
+        align-self: center;
+        min-width: 40px; }
+    header .case_study .description {
+      color: white; }
+      header .case_study .description h5 {
+        padding-bottom: 16px; }
+      header .case_study .description hr {
+        background-color: white; }
+  header .interface {
+    overflow-x: visible;
+    margin-top: 15%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: white;
+    height: 100vw;
+    width: 100vw;
+    min-width: 800px;
+    min-height: 800px; }
+    header .interface .circle {
+      background-color: #661424;
+      z-index: 500;
+      position: relative;
+      color: white; }
+    header .interface .txt_box {
+      padding-top: 5%;
+      padding-left: 12%;
+      overflow-x: visible; }
+    header .interface h3 {
+      color: #661424; }
+    header .interface .line {
+      height: 2px;
+      width: 4rem; }
+
+.color_box {
+  height: 100vh;
+  min-height: 800px; }
+  .color_box .row {
+    margin: 0;
+    padding: 0;
+    height: 25%;
+    width: 100%; }
+    .color_box .row .field {
+      color: white;
+      text-align: end;
+      padding: 5% 4% 0 4%;
+      display: inline-block;
+      height: 100%;
+      width: 20%; }
+      .color_box .row .field p {
+        font-size: 0.9rem;
+        text-transform: uppercase; }
+    .color_box .row #heading {
+      padding: 1% 4% 0 3%;
+      text-align: left;
+      color: #383838; }
+      .color_box .row #heading .line {
+        background-color: #555656;
+        height: 2px;
+        width: 50%; }
+  .color_box .clean_water {
+    background-color: #00add8; }
+  .color_box .clean_energy {
+    background-color: #fdb714; }
+  .color_box .industry {
+    background-color: #f36e24; }
+  .color_box .frame {
+    background-color: #fff;
+    border: solid 0.5px #9fa0a0; }
+    .color_box .frame p {
+      color: #9fa0a0; }
+  .color_box .land_life {
+    background-color: #40ae49; }
+  .color_box .below_water {
+    background-color: #007dbb; }
+  .color_box .industry {
+    background-color: #f36e24; }
+  .color_box .powerty {
+    background-color: #EA1C2D; }
+  .color_box .cities {
+    background-color: #f99d25; }
+  .color_box .letter {
+    background-color: #555656; }
+  .color_box .health {
+    background-color: #2d9a47; }
+  .color_box .peace {
+    background-color: #00558a; }
+  .color_box .hunger {
+    background-color: #D19F2A; }
+  .color_box .education {
+    background-color: #C22033; }
+  .color_box .gustaw {
+    background-color: #383838; }
+  .color_box .climate {
+    background-color: #48773c; }
+  .color_box .partnership {
+    background-color: #1A3668; }
+  .color_box .consumption {
+    background-color: #CD8B2A; }
+  .color_box .happy_gustaw {
+    background-color: #E01A83; }
+  .color_box .gustaw_bcg {
+    background-color: #000; }
+
+.typo {
+  height: 120vh;
+  min-height: 800px; }
+  .typo h3 {
+    color: #00add8; }
+  .typo .line {
+    background-color: #00add8; }
+  .typo .row {
+    height: 100%; }
+    .typo .row .dark_blue {
+      padding: 10% 5% 0 10%;
+      height: 100%;
+      width: 100%;
+      background-color: #00558a; }
+    .typo .row .light_blue img {
+      margin-top: 65%; }
+    .typo .row img {
+      width: 80%;
+      margin-top: 50%; }
+    .typo .row .light_blue {
+      height: 100%;
+      width: 100%;
+      padding: 10% 5% 0 10%;
+      background-color: #00add8; }
+
+.contrast {
+  background-color: #007dbb;
+  height: 160vh;
+  min-height: 800px;
+  overflow: hidden; }
+  .contrast .circle_bcg {
+    overflow-x: visible;
+    height: 100vw;
+    width: 100vw;
+    background-color: #1a3668;
+    border-radius: 100%;
+    margin-top: -50vw; }
+    .contrast .circle_bcg img {
+      width: 100%;
+      margin-top: 72vw; }
+  .contrast .txt_box {
+    padding: 10% 5% 0 10%;
+    color: #1a3668; }
+    .contrast .txt_box .line {
+      background-color: #1a3668; }
+
+.ux_strategy {
+  background-color: white; }
+  .ux_strategy .circle_bcg {
+    position: relative;
+    z-index: 100;
+    margin-top: 10%;
+    background-color: #f1f1f1;
+    border-radius: 100%;
+    height: 100vw;
+    width: 100vw;
+    overflow-x: visible; }
+    .ux_strategy .circle_bcg .txt_box {
+      padding-top: 10%;
+      width: 50%;
+      margin-left: 15%; }
+      .ux_strategy .circle_bcg .txt_box .line {
+        background-color: #fdb714; }
+      .ux_strategy .circle_bcg .txt_box h3 {
+        color: #fdb714; }
+      .ux_strategy .circle_bcg .txt_box .circle {
+        background-color: #fdb714;
+        color: white; }
+    .ux_strategy .circle_bcg img {
+      height: 50%; }
+  .ux_strategy .space {
+    position: relative;
+    margin-top: -50%;
+    height: 195vh;
+    background-color: #555656;
+    overflow: hidden; }
+    .ux_strategy .space .txt_box {
+      margin-top: 45%;
+      padding: 10% 5% 0 10%;
+      overflow: hidden; }
+      .ux_strategy .space .txt_box .row {
+        overflow: hidden; }
+      .ux_strategy .space .txt_box .line {
+        background-color: #fdb714; }
+      .ux_strategy .space .txt_box h3 {
+        overflow: hidden;
+        color: #fdb714; }
+      .ux_strategy .space .txt_box p {
+        overflow: hidden;
+        color: #000; }
+    .ux_strategy .space .img_box {
+      height: 100%; }
+      .ux_strategy .space .img_box img {
+        height: 25%;
+        max-height: 700px;
+        z-index: 600;
+        margin-top: 120%;
+        position: relative; }
+
+.statistics {
+  min-height: auto;
+  background-color: white;
+  height: auto;
+  overflow-x: visible;
+  position: relative; }
+  .statistics img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -7%;
+    display: block; }
+  .statistics .txt_box {
+    padding: 0 5% 0 10%;
+    color: #1a3668; }
+    .statistics .txt_box .line {
+      background-color: #1a3668; }
+
+.devices {
+  overflow: hidden;
+  padding-top: 10%;
+  height: 600px;
+  background-color: white; }
+  .devices .txt_box {
+    color: #f99d25; }
+    .devices .txt_box .line {
+      background-color: #f99d25; }
+  .devices img {
+    height: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.graphic {
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  height: 50vw;
+  overflow-y: hidden; }
+  .graphic .circle_bcg {
+    overflow-x: visible;
+    margin-top: 10%;
+    height: 100vw;
+    width: 100vw;
+    border-radius: 100%;
+    background-color: #f1f1f1; }
+    .graphic .circle_bcg .circle_box .circle {
+      background-color: #007dbb;
+      color: white; }
+    .graphic .circle_bcg .txt_box {
+      margin-top: -5%;
+      position: relative;
+      z-index: 200; }
+      .graphic .circle_bcg .txt_box .line {
+        background-color: #007dbb; }
+      .graphic .circle_bcg .txt_box h3 {
+        color: #007dbb; }
+
+.ministers {
+  font-size: 0;
+  background-color: #00558a;
+  overflow-x: visible;
+  height: auto; }
+  .ministers .first_row {
+    margin-top: -7%;
+    position: relative;
+    z-index: 200; }
+  .ministers img {
+    display: inline-block;
+    width: 20%;
+    padding: 0;
+    margin: 0; }
+  .ministers .txt_box {
+    margin-top: 10%;
+    height: 300px;
+    color: white; }
+    .ministers .txt_box .line {
+      background-color: white; }
+    .ministers .txt_box p {
+      height: auto;
+      font-size: 1.2rem; }
+
+.gustaw {
+  height: 1200px;
+  position: relative; }
+  .gustaw .row {
+    height: 100%; }
+    .gustaw .row img {
+      width: 50%;
+      display: block;
+      margin-top: 500px;
+      margin-left: auto;
+      margin-right: auto; }
+    .gustaw .row .happy {
+      background-color: #e01a83; }
+    .gustaw .row .normal {
+      background-color: #383838; }
+    .gustaw .row .disappointed {
+      background-color: #000; }
+  .gustaw .description {
+    margin-left: 20%;
+    padding: 5% 5% 0 15%;
+    height: 25%;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    z-index: 300;
+    margin-top: -1100px; }
+    .gustaw .description .txt_box .line {
+      background-color: black; }
+
+.end_game {
+  padding: 10% 5% 0 10%;
+  height: 1000px;
+  background-color: black;
+  color: white; }
+  .end_game .line {
+    background-color: white; }
+  .end_game .row {
+    margin-top: 10%; }
+  .end_game img {
+    width: 50%;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .end_game .txt {
+    padding: 10% 15%; }
+    .end_game .txt h5 {
+      margin-bottom: 16px; }

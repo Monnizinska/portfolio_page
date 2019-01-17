@@ -1,0 +1,45 @@
+.gustaw {
+    height: 1200px;
+    position: relative;
+
+    .row {
+        height: 100%;
+
+        img {
+            width: 50%;
+            display: block;
+            margin-top: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .happy {
+            background-color: #e01a83;
+        }
+
+        .normal {
+            background-color: #383838;
+        }
+
+        .disappointed {
+            background-color: #000;
+        }
+    }
+
+    .description {
+        margin-left: 20%;
+        padding: 5% 5% 0 15%;
+        height: 25%;
+        background-color: white;
+        border-radius: 4px;
+        position: relative;
+        z-index: 300;
+        margin-top: -1100px;
+
+        .txt_box {
+            .line {
+                background-color: black;
+            }
+        }
+    }
+}

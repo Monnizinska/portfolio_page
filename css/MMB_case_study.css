@@ -1,0 +1,35 @@
+header {
+  opacity: 0;
+  background-color: #f55500;
+  height: 900px;
+  overflow: hidden;
+  min-height: 800px;
+  transition: opacity 0.5s linear; }
+  header .case_study {
+    padding: 10% 5% 0 10%; }
+    header .case_study .heading {
+      padding-bottom: 20px; }
+      header .case_study .heading h1,
+      header .case_study .heading h5 {
+        overflow: hidden;
+        color: #202020; }
+      header .case_study .heading h5 {
+        margin: 0 16px; }
+      header .case_study .heading h1 {
+        margin: 32px; }
+        @media all and (min-width: 768px) {
+          header .case_study .heading h1 {
+            font-size: 4.5rem; } }
+      header .case_study .heading .line {
+        margin-left: 48px;
+        width: 20%;
+        height: 2px;
+        display: flex;
+        align-self: center;
+        min-width: 40px; }
+    header .case_study .description {
+      color: white; }
+      header .case_study .description h5 {
+        padding-bottom: 16px; }
+      header .case_study .description hr {
+        background-color: white; }

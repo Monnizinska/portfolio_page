@@ -1,0 +1,105 @@
+@import 'zmienne';
+
+#welcome {
+    background-image: url(../assets/winkPark_img/wp_mockup2.png);
+    background-size: cover;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    height: 1400px;
+
+    .mask {
+        background-color: $WP_blue;
+    }
+}
+
+
+h2 {
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    overflow: hidden;
+
+    span {
+        text-transform: none;
+        font-weight: normal;
+    }
+}
+
+.menu-section .hamburger:before {
+    background-color: #317bca;
+}
+
+.menu-section a:hover {
+    color: $WP_navy;
+    text-decoration: none;
+}
+
+.menu-section button,
+.menu-section .hamburger .menu-label {
+    color: $WP_navy;
+    font-weight: bold;
+}
+
+// prototype start
+
+.prototype {
+    height: auto;
+    display: flex;
+    align-content: center;
+}
+
+//navbar start
+
+.linkedin{
+    width: 12px;
+    @media all and (min-width: 768px) {
+        img{
+            width: 15px;
+        }
+    }
+}
+
+.github{
+    @media all and (min-width: 768px) {
+        img{
+            width: 52px;
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    h2 {
+        font-size: 42px;
+    }
+}
+
+@media all and (min-width: 1170px) {
+    h2 {
+        font-size: 54px;
+        letter-spacing: 1.1px;
+    }
+
+    .color_box {
+        height: 145px;
+        width: 140px;
+    }
+}
+
+.real_app {
+    background-color: $WP_blue;
+    position: relative;
+
+    .txt_box {
+        padding-top: 100px;
+        @media all and (min-width: 991px) {
+            padding-top: 350px;
+        }
+    }
+}
+
+@media all and (min-width: 480px) {}
+
+
+@import 'WP_case_study';
+@import 'WP_color_palette';

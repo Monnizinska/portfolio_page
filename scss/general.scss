@@ -1,0 +1,76 @@
+@import 'zmienne';
+
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    html,
+    body {
+        font-family: 'Montserrat', sans-serif;
+        color: #1a3668;
+
+        h1,
+        h5 {
+
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .github{
+            img{
+                display: block;
+                width: 64px;
+            }
+        }
+
+        .linkedin{
+            img{
+                width: 18px;
+                display: block;
+            }
+        }
+        .welcome_screen {
+            height: 100vh;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            .mask {
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                z-index: 10;
+                transition: all 0.5s linear;
+                animation-delay: 1.5s;
+            }
+
+            @media screen and(min-width: 992px) {
+                min-height: 600px;
+            }
+        }
+
+        .txt_box {
+            .line {
+                height: 3px;
+                width: 100px;
+            }
+        }
+        a:hover{
+            text-decoration: none;
+            color: #1a3668;
+            transform: scale(1.1);
+            transition: all linear 0.1s;
+        }
+    }
+    footer{
+        a{
+            color: #1a3668;
+            font-weight: bold;
+            text-decoration: underline;
+
+        }
+    }
+}
+
+@import 'welcome_page';
+@import 'menu';

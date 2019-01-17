@@ -1,0 +1,12 @@
+body {
+  background-color: #f1f1f1; }
+
+.welcome_screen {
+  height: 100vh;
+  background-image: url(../assets/el_presidente_img/el_presidente_welcome_screen_el_Presidente_welcome.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 992px) {
+    .welcome_screen {
+      min-height: 600px; } }

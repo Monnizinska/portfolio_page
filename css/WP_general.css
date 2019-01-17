@@ -1,0 +1,158 @@
+#welcome {
+  background-image: url(../assets/winkPark_img/wp_mockup2.png);
+  background-size: cover;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  height: 1400px; }
+  #welcome .mask {
+    background-color: #388fee; }
+
+h2 {
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+  overflow: hidden; }
+  h2 span {
+    text-transform: none;
+    font-weight: normal; }
+
+.menu-section .hamburger:before {
+  background-color: #317bca; }
+
+.menu-section a:hover {
+  color: #1a3668;
+  text-decoration: none; }
+
+.menu-section button,
+.menu-section .hamburger .menu-label {
+  color: #1a3668;
+  font-weight: bold; }
+
+.prototype {
+  height: auto;
+  display: flex;
+  align-content: center; }
+
+.linkedin {
+  width: 12px; }
+  @media all and (min-width: 768px) {
+    .linkedin img {
+      width: 15px; } }
+
+@media all and (min-width: 768px) {
+  .github img {
+    width: 52px; } }
+
+@media all and (min-width: 768px) {
+  h2 {
+    font-size: 42px; } }
+
+@media all and (min-width: 1170px) {
+  h2 {
+    font-size: 54px;
+    letter-spacing: 1.1px; }
+  .color_box {
+    height: 145px;
+    width: 140px; } }
+
+.real_app {
+  background-color: #388fee;
+  position: relative; }
+  .real_app .txt_box {
+    padding-top: 100px; }
+    @media all and (min-width: 991px) {
+      .real_app .txt_box {
+        padding-top: 350px; } }
+
+header {
+  opacity: 0;
+  background-color: #388fee;
+  height: 900px;
+  overflow: hidden;
+  min-height: 800px;
+  transition: opacity 0.5s linear; }
+  header .case_study {
+    padding: 10% 5% 0 10%; }
+    header .case_study .heading {
+      padding-bottom: 20px; }
+      header .case_study .heading h1,
+      header .case_study .heading h5 {
+        overflow: hidden;
+        color: #1a3668; }
+      header .case_study .heading h5 {
+        margin: 0 16px; }
+      header .case_study .heading h1 {
+        margin: 32px; }
+        @media all and (min-width: 768px) {
+          header .case_study .heading h1 {
+            font-size: 4.5rem; } }
+      header .case_study .heading .line {
+        margin-left: 48px;
+        width: 18%;
+        height: 2px;
+        display: flex;
+        align-self: center;
+        min-width: 40px; }
+    header .case_study .description {
+      color: white; }
+      header .case_study .description h5 {
+        padding-bottom: 16px; }
+      header .case_study .description hr {
+        background-color: white; }
+  header .interface {
+    overflow-x: visible;
+    margin-top: 15%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: white;
+    height: 100vw;
+    width: 100vw;
+    min-width: 800px;
+    min-height: 800px; }
+    header .interface .circle {
+      background-color: #1a3668;
+      z-index: 500;
+      position: relative;
+      color: white; }
+    header .interface .txt_box {
+      padding-top: 5%;
+      padding-left: 12%;
+      overflow-x: visible; }
+    header .interface h3 {
+      color: #1a3668; }
+    header .interface .line {
+      height: 2px;
+      width: 4rem; }
+
+.color_palette {
+  height: 900px;
+  display: flex;
+  align-content: center; }
+  .color_palette .color_box {
+    height: 80px;
+    width: 100px; }
+    @media all and (min-width: 768px) {
+      .color_palette .color_box {
+        height: 135px;
+        width: 120px; } }
+  .color_palette h2 {
+    padding-bottom: 15%; }
+  .color_palette h6 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 24px 0 12px 12px;
+    border: solid 1px #606060; }
+    @media all and (min-width: 768px) {
+      .color_palette h6 {
+        font-size: initial; } }
+  .color_palette .share {
+    background-color: #4DAE03; }
+  .color_palette .mark_color {
+    background-color: #388fee; }
+  .color_palette .txt {
+    background-color: #606060; }
+  .color_palette .danger {
+    background-color: #ff4858; }
+  .color_palette .disabled {
+    background-color: #c2c2c2; }

@@ -1,0 +1,30 @@
+@import 'zmienne';
+
+.contrast {
+    background-color: #007dbb;
+    height: 160vh;
+    min-height: $lg-min-height;
+    overflow: hidden;
+
+    .circle_bcg {
+        overflow-x: visible;
+        height: 100vw;
+        width: 100vw;
+        background-color: #1a3668;
+        border-radius: 100%;
+        margin-top: -50vw;
+
+        img {
+            width: 100%;
+            margin-top: 72vw;
+        }
+    }
+
+    .txt_box {
+        .line{
+            background-color: #1a3668;
+        }
+        padding: $lg-padding;
+        color: #1a3668;
+    }
+}

@@ -1,0 +1,107 @@
+body {
+  background-color: #1a1d20; }
+
+.welcome_screen {
+  background-image: url(../assets/make_my_burger_img/burger_cover.png);
+  background-size: contain;
+  min-height: 800px;
+  background-position: center;
+  background-color: #1a1d20;
+  margin: 0;
+  padding: 0;
+  height: auto; }
+  @media all and (min-width: 768px) {
+    .welcome_screen {
+      background-image: url(../assets/make_my_burger_img/start-02.png);
+      min-height: 100vh;
+      background-size: cover;
+      background-position: bottom; } }
+  .welcome_screen .mask {
+    background-color: #f55500; }
+
+.menu-section .hamburger:before {
+  background-color: #b44103; }
+
+.menu-section a:hover {
+  color: #202020;
+  text-decoration: none; }
+
+.menu-section button,
+.menu-section .hamburger .menu-label {
+  color: #fafafa;
+  font-weight: bold; }
+
+.img-box {
+  width: 100%; }
+
+.screen {
+  height: auto;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 10px;
+  margin: 0; }
+  @media all and (min-width: 750px) {
+    .screen {
+      width: 49%; } }
+
+.color {
+  height: auto;
+  display: flex;
+  align-content: center; }
+  .color .color_box {
+    align-self: center;
+    height: 120px;
+    width: 180px;
+    padding: 20px; }
+    @media all and (min-width: 768px) {
+      .color .color_box {
+        height: 200px;
+        width: 120px; } }
+  .color .white {
+    background-color: white; }
+  .color .dark_gray {
+    color: white;
+    border: solid 1px white; }
+  .color .accent {
+    background-color: #f55500;
+    color: white; }
+
+footer {
+  background-color: #fafafa;
+  width: 100%; }
+
+header {
+  opacity: 0;
+  background-color: #f55500;
+  height: 900px;
+  overflow: hidden;
+  min-height: 800px;
+  transition: opacity 0.5s linear; }
+  header .case_study {
+    padding: 10% 5% 0 10%; }
+    header .case_study .heading {
+      padding-bottom: 20px; }
+      header .case_study .heading h1,
+      header .case_study .heading h5 {
+        overflow: hidden;
+        color: #202020; }
+      header .case_study .heading h5 {
+        margin: 0 16px; }
+      header .case_study .heading h1 {
+        margin: 32px; }
+        @media all and (min-width: 768px) {
+          header .case_study .heading h1 {
+            font-size: 4.5rem; } }
+      header .case_study .heading .line {
+        margin-left: 48px;
+        width: 20%;
+        height: 2px;
+        display: flex;
+        align-self: center;
+        min-width: 40px; }
+    header .case_study .description {
+      color: white; }
+      header .case_study .description h5 {
+        padding-bottom: 16px; }
+      header .case_study .description hr {
+        background-color: white; }

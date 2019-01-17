@@ -1,0 +1,31 @@
+.color_palette {
+  height: 900px;
+  display: flex;
+  align-content: center; }
+  .color_palette .color_box {
+    height: 80px;
+    width: 100px; }
+    @media all and (min-width: 768px) {
+      .color_palette .color_box {
+        height: 135px;
+        width: 120px; } }
+  .color_palette h2 {
+    padding-bottom: 15%; }
+  .color_palette h6 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 24px 0 12px 12px;
+    border: solid 1px #606060; }
+    @media all and (min-width: 768px) {
+      .color_palette h6 {
+        font-size: initial; } }
+  .color_palette .share {
+    background-color: #4DAE03; }
+  .color_palette .mark_color {
+    background-color: #388fee; }
+  .color_palette .txt {
+    background-color: #606060; }
+  .color_palette .danger {
+    background-color: #ff4858; }
+  .color_palette .disabled {
+    background-color: #c2c2c2; }

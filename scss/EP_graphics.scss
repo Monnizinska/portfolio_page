@@ -1,0 +1,38 @@
+.graphic {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    height: 50vw;
+    overflow-y: hidden;
+
+    .circle_bcg {
+        overflow-x: visible;
+        margin-top: 10%;
+        height: 100vw;
+        width: 100vw;
+        border-radius: 100%;
+        background-color: #f1f1f1;
+
+        .circle_box {
+            .circle {
+                background-color: #007dbb;
+                color: white;
+            }
+        }
+
+        .txt_box {
+            margin-top: -5%;
+            position: relative;
+            z-index: 200;
+
+            .line {
+                background-color: #007dbb;
+            }
+
+            h3 {
+                color: #007dbb;
+            }
+        }
+    }
+
+}

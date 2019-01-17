@@ -1,0 +1,19 @@
+.end_game {
+  padding: 10% 5% 0 10%;
+  height: 1000px;
+  background-color: black;
+  color: white; }
+  .end_game .line {
+    background-color: white; }
+  .end_game .row {
+    margin-top: 10%; }
+  .end_game img {
+    width: 50%;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .end_game .txt {
+    padding: 10% 15%; }
+    .end_game .txt h5 {
+      margin-bottom: 16px; }

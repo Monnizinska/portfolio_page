@@ -1,0 +1,24 @@
+@import 'zmienne';
+
+.statistics{
+    min-height: auto;
+    background-color: white;
+    height: auto;
+    overflow-x: visible;
+    position: relative;
+    img{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -7%;
+        display: block;
+    }
+    .txt_box{
+        padding: 0 5% 0 10%;
+        color: #1a3668;
+        .line{
+            background-color: #1a3668;
+        }
+    }
+
+}

@@ -1,0 +1,53 @@
+@import 'zmienne';
+
+.color_palette {
+    height: 900px;
+    display: flex;
+    align-content: center;
+
+    .color_box {
+        height: 80px;
+        width: 100px;
+
+        @media all and (min-width: 768px) {
+            height: 135px;
+            width: 120px;
+        }
+    }
+
+    h2 {
+        padding-bottom: 15%;
+    }
+
+    h6 {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        padding: 24px 0 12px 12px;
+        border: solid 1px #606060;
+
+        @media all and (min-width: 768px) {
+            font-size: initial;
+        }
+    }
+
+    .share {
+        background-color: $WP_green;
+    }
+
+    .mark_color {
+        background-color: $WP_blue;
+    }
+
+    .txt {
+        background-color: $WP_txt;
+    }
+
+    .danger {
+        background-color: $WP_danger;
+    }
+
+    .disabled {
+        background-color: $WP_disabled;
+    }
+
+}
