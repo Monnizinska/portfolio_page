@@ -50,19 +50,32 @@ h2 {
 }
 
 //navbar start
+.navbar {
+    width: 100%;
+    height: auto;
+}
 
-.linkedin{
+.real_app {
+    img {
+        display: block;
+        width: 80%;
+        height: auto;
+    }
+}
+
+.linkedin {
     width: 12px;
+
     @media all and (min-width: 768px) {
-        img{
+        img {
             width: 15px;
         }
     }
 }
 
-.github{
+.github {
     @media all and (min-width: 768px) {
-        img{
+        img {
             width: 52px;
         }
     }
@@ -92,6 +105,7 @@ h2 {
 
     .txt_box {
         padding-top: 100px;
+
         @media all and (min-width: 991px) {
             padding-top: 350px;
         }
